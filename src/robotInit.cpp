@@ -4,13 +4,11 @@
 
 vex::brain brain;
 
-vex::motor rightFront(RIGHT_FRONT, MID_RATIO, true);
-vex::motor rightBack(RIGHT_BACK, MID_RATIO, true);
-vex::motor leftFront(LEFT_FRONT, MID_RATIO);
-vex::motor leftBack(LEFT_BACK, MID_RATIO);
+vex::motor right(RIGHT, MID_RATIO, true);
+vex::motor left(LEFT, MID_RATIO);
 
-vex::motor rightConv(RIGHT_CONV, MID_RATIO);
-vex::motor leftConv(LEFT_CONV, MID_RATIO);
+vex::motor rightConv(RIGHT_CONV, MID_RATIO, true);
+vex::motor leftConv(LEFT_CONV, MID_RATIO, true);
 
 vex::motor rightIntake(RIGHT_INTAKE, MID_RATIO);
 vex::motor leftIntake(LEFT_INTAKE, MID_RATIO);

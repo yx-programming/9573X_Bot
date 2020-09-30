@@ -5,10 +5,8 @@
 
 extern vex::brain brain;
 
-extern vex::motor rightFront;
-extern vex::motor rightBack;
-extern vex::motor leftFront;
-extern vex::motor leftBack;
+extern vex::motor right;
+extern vex::motor left;
 
 extern vex::motor rightConv;
 extern vex::motor leftConv;
