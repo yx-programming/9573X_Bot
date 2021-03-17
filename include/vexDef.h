@@ -29,4 +29,9 @@
 #define LEFT_JOY_VERT Axis3.value
 #define LEFT_JOY_HORIZ Axis4.value
 
+#define INCHES vex::inches
+
+#define CW vex::turnType::left
+#define CCW vex::turnType::right
+
 #endif

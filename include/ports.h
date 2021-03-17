@@ -2,15 +2,17 @@
 #define PORTS
 
 // Drive Train
-#define RIGHT vex::PORT7
-#define LEFT vex::PORT10
+#define RIGHT vex::PORT1
+#define LEFT vex::PORT2
+#define RIGHT_BACK vex::PORT12
+#define LEFT_BACK vex::PORT20
 
 // Conveyor System Control
-#define RIGHT_CONV vex::PORT20
-#define LEFT_CONV vex::PORT12
+#define CONV vex::PORT5
+#define EJECT vex::PORT6
 
 // Intake System
-#define RIGHT_INTAKE vex::PORT18
-#define LEFT_INTAKE vex::PORT19
+#define RIGHT_INTAKE vex::PORT13
+#define LEFT_INTAKE vex::PORT11
 
 #endif
